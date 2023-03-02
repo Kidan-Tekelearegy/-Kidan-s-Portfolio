@@ -1,7 +1,14 @@
 //variables 
-$primary:#976dd1;
+$purple:#976dd1;
 $success: #ff006e;
+$primary: #a5b3cc84;
+$secondary: #e5e5e5;
+
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 *,
 *::before,
@@ -10,15 +17,34 @@ $success: #ff006e;
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+  h3 {
+    font-family: 'Love Light', cursive;
+  }
+  #hero-section {
+      height: 100vh;
+      width: 100vw;
+      background-color:$primary;
+      background-image: url(./img/kidan4-removebg-preview.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      display:flex;
+      align-items: center;
+        h1 {
+        font-family:'Love Ya Like A Sister', cursive;
+        }
+        .profile-img {
+      margin-right: 30rem;
+        }
+        p {
+          letter-spacing:0.1rem;
+        }
+      }
+}
 
-.container1 {
-    background-image: url(./img/);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
+footer .social-media img {
+  width: 30px;
 }
-.hero-text {
-  margin: 10rem;
-  text-align: center;
-}
+
