@@ -2,3 +2,23 @@
 $primary:#976dd1;
 $success: #ff006e;
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+    background-image: url(./img/);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.hero-text {
+  margin: 10rem;
+  text-align: center;
+}

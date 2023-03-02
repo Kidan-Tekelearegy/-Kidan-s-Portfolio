@@ -10769,5 +10769,19 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+  background-image: url(./img/);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /*# sourceMappingURL=main.css.map */
