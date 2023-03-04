@@ -1,14 +1,14 @@
-//variables 
-$purple:#976dd1;
+//variables
+$purple: #976dd1;
 $success: #ff006e;
 $primary: #a5b3cc84;
 $secondary: #e5e5e5;
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Love+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 *,
 *::before,
@@ -17,34 +17,116 @@ $secondary: #e5e5e5;
   margin: 0;
   padding: 0;
 }
+:root {
+  font-size: 62.5% !important;
+}
 body {
-  font-family: 'Roboto', sans-serif;
-  h3 {
-    font-family: 'Love Light', cursive;
-  }
-  #hero-section {
-      height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  main {
+    margin: 5rem;
+   
+    #hero-section {
+      height: 90vh;
       width: 100vw;
-      background-color:$primary;
+      /*   background-color:$primary; */
       background-image: url(./img/kidan4-removebg-preview.png);
-      background-position: center;
+      background-position: right center;
       background-repeat: no-repeat;
       background-size: contain;
-      display:flex;
-      align-items: center;
-        h1 {
-        font-family:'Love Ya Like A Sister', cursive;
-        }
-        .profile-img {
-      margin-right: 30rem;
-        }
+      padding-top: 20rem;
+  
+      h1 {
+        font-family: "Love Ya Like A Sister", cursive;
+        font-size: 6rem;
+      }
+      .profile-img {
+        margin-right: 30rem;
+      }
+      p {
+        letter-spacing: 0.1rem;
+        font-size: 3rem;
+      }
+      @media screen and (max-width: 665px) {
         p {
-          letter-spacing:0.1rem;
+          display: none;
+          background-color: #976dd1;
         }
       }
+      h1 {
+        color: #976dd1;
+      }
+    }
+  
+    .social-media i:hover {
+      color: #ef233c;
+    }
+    .section2 {
+      background-color: $primary;
+    
+      .section2 h2 {
+        font-size: 2rem;
+        text-shadow: 2px 2px 0px black;
+      }
+       div {
+        margin: 1rem;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        width: 300px;
+        height: 200px;
+        
+      }
+       * {
+        padding: 0.5rem 0;
+      }
+       .div1 {
+        background-color: $secondary;
+      }
+      
+       .div2 {
+        background-color: black;
+        color: white;
+      }
+      
+       .div3 {
+        background-color: $secondary;
+      }
+    }
+    
+    .card-footer {
+      border-radius: 2rem !important;
+       div {
+        background-color: $primary;
+      }
+      h2 {
+        font-size: 2rem;
+        font-weight: 900;
+      }
+    }
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: black !important;
+      color: white !important;
+      cursor: pointer;
+      padding: 2rem;
+      border-radius: 5rem;
+    }
+  }
+  h3 {
+    font-family: "Love Light", cursive;
+    font-size: 3rem;
+  }
 }
-
-footer .social-media img {
-  width: 30px;
+a:hover {
+  color: green !important;
 }
-
+a {
+  font-size: 1.8rem !important;
+}
