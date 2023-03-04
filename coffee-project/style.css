@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+    --primary: #d4a373;
+    --secondary: #e6e4ce;
+    --green: #264b1f;
+    --light-green: #d7dec1;
+    --font1: "Lovers Quarrel', cursiv";
+    --font2: 'Roboto Flex', sans-serif;
+
+}
+body {
+    font-size: 2rem;
+    font-family: var(--font1);
+}
+header {
+    width: 100%;
+    display:flex;
+    background-color:var(--light-green);
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+}
+header img {
+    width: 10rem;
+}
+nav ul a {
+    text-decoration: none;
+    color: black;
+    margin:4rem 6rem;
+    display: flex;
+    gap: 5rem;
+}
+ nav ul a:hover {
+    color:var(--green);
+    font-size: larger;
+    font-weight: 900;
+} 
+nav ul li {
+    list-style: none;
+}
+main {
+    margin: 5rem;
+}
+.first-img {
+    width: 100%;
+    height: 70vh;
+    background-image: url(./img/coffee-cherries.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    font-size: 5rem;
+    padding-top: 10rem;
+}
+.container2{
+    padding-top: 5rem;
+    line-height: 1.5;
+}
+
+.map {
+   width: 20%;
+ 
+  
+}
+.container3 {
+    line-height: 1.5;
+    padding-top: 5rem;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:var(--green);
+    color: white;
+    cursor: pointer;
+    padding: 3rem;
+    border-radius: 5rem;
+  }
+   
+    
+
