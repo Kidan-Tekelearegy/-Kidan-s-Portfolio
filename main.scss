@@ -22,9 +22,9 @@ $secondary: #e5e5e5;
 }
 body {
   font-family: "Roboto", sans-serif;
-  font-size:2.5rem;
+  font-size: 2.5rem;
   font-weight: 600;
- /*  background-color: #976dd1; */
+  /*  background-color: #976dd1; */
 
   #hero-section {
     max-width: 100% !important;
@@ -62,51 +62,49 @@ body {
   .social-media {
     background-image: linear-gradient($primary, $secondary, $purple);
     .one:hover {
-       color: #ef233c;
-     }
-     .two:hover  {
+      color: #ef233c;
+    }
+    .two:hover {
       color: white;
       background-color: black;
-     }
-     .three:hover {
-      color:rgba(0, 94, 255, 0.341);
-     
-     }
+    }
+    .three:hover {
+      color: rgba(0, 94, 255, 0.341);
+    }
   }
   #education {
     max-width: 100% !important;
-  
+
     h2 {
       font-size: 4rem;
       text-shadow: 4px 4px 6px $purple;
-     
     }
-  
+
     h4 {
       font-size: 3rem;
     }
     p {
       font-size: 2rem;
     }
-  
+
     div {
       border-radius: 3rem;
     }
-  
+
     .div1 {
       background-color: $secondary;
     }
-  
+
     .div2 {
       background-color: black;
       color: white;
     }
-  
+
     .div3 {
       background-color: $secondary;
     }
   }
-  
+
   h3 {
     font-family: "Love Light", cursive;
     font-size: 3rem;
@@ -130,7 +128,7 @@ body {
     padding: 3rem;
     border-radius: 5rem;
   }
-  #skills  {
+  #skills {
     .html:hover {
       color: #ef233c;
     }
@@ -141,7 +139,7 @@ body {
       color: $purple;
     }
     .python:hover {
-      color:rgba(0, 166, 255, 0.442);
+      color: rgba(0, 166, 255, 0.442);
     }
   }
   footer {
@@ -156,6 +154,4 @@ body {
       font-size: 3rem;
     }
   }
-
-}  
-
+}
