@@ -61,9 +61,17 @@ body {
   }
   .social-media {
     background-image: linear-gradient($primary, $secondary, $purple);
-  }
-  .social-media i:hover {
-    color: #ef233c;
+    .one:hover {
+       color: #ef233c;
+     }
+     .two:hover  {
+      color: white;
+      background-color: black;
+     }
+     .three:hover {
+      color:rgba(0, 94, 255, 0.341);
+     
+     }
   }
   #education {
     max-width: 100% !important;
@@ -122,8 +130,19 @@ body {
     padding: 3rem;
     border-radius: 5rem;
   }
-  #skills i:hover {
-    color:$purple;
+  #skills  {
+    .html:hover {
+      color: #ef233c;
+    }
+    .css:hover {
+      color: rgba(0, 64, 255, 0.499);
+    }
+    .bootstrap:hover {
+      color: $purple;
+    }
+    .python:hover {
+      color:rgba(0, 166, 255, 0.442);
+    }
   }
   footer {
     background-image: linear-gradient(

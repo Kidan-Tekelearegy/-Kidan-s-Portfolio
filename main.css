@@ -10826,8 +10826,15 @@ body #hero-section p {
 body .social-media {
   background-image: linear-gradient(rgba(165, 179, 204, 0.5176470588), #e5e5e5, #976dd1);
 }
-body .social-media i:hover {
+body .social-media .one:hover {
   color: #ef233c;
+}
+body .social-media .two:hover {
+  color: white;
+  background-color: black;
+}
+body .social-media .three:hover {
+  color: rgba(0, 94, 255, 0.341);
 }
 body #education {
   max-width: 100% !important;
@@ -10878,8 +10885,17 @@ body #backtotop {
   padding: 3rem;
   border-radius: 5rem;
 }
-body #skills i:hover {
+body #skills .html:hover {
+  color: #ef233c;
+}
+body #skills .css:hover {
+  color: rgba(0, 64, 255, 0.499);
+}
+body #skills .bootstrap:hover {
   color: #976dd1;
+}
+body #skills .python:hover {
+  color: rgba(0, 166, 255, 0.442);
 }
 body footer {
   background-image: linear-gradient(rgba(165, 179, 204, 0.5176470588), #e5e5e5, #976dd1, rgba(255, 0, 0, 0.437));
