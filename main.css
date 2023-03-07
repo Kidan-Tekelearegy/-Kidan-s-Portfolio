@@ -10787,8 +10787,9 @@ textarea.form-control-lg {
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight: 600;
+  /*  background-color: #976dd1; */
 }
 body #hero-section {
   max-width: 100% !important;
@@ -10800,6 +10801,14 @@ body #hero-section {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 10rem;
+  /*     p {
+        letter-spacing: 0.1rem;
+        font-size: 3rem;
+        color: $secondary;
+        font-weight: 900;
+        margin-top: 40rem !important;
+        margin-left: 10rem !important;
+      } */
 }
 body #hero-section h1, body #hero-section .h1 {
   font-family: "Love Ya Like A Sister", cursive;
@@ -10814,45 +10823,18 @@ body #hero-section .img-me {
   margin-top: 20rem;
   margin-left: 50%;
 }
-body #hero-section p {
-  letter-spacing: 0.1rem;
-  font-size: 3rem;
-  color: #e5e5e5;
-  font-weight: 900;
-  margin-top: 40rem;
-  margin-left: 10rem;
-}
 body .social-media {
   background-image: linear-gradient(rgba(165, 179, 204, 0.5176470588), #e5e5e5, #976dd1);
 }
 body .social-media i:hover {
   color: #ef233c;
 }
-@media screen and (max-width: 566px) {
-  body .glyphicon {
-    font-size: 1.2rem;
-  }
-  body p {
-    font-size: 1rem;
-  }
-}
-@media screen and (min-width: 567px) and (max-width: 768px) {
-  body .glyphicon {
-    font-size: 2em;
-  }
-}
-@media screen and (min-width: 767px) and (max-width: 992) {
-  body .glyphicon {
-    font-size: 4em;
-  }
-}
 body #education {
   max-width: 100% !important;
-  height: 80vh;
 }
 body #education h2, body #education .h2 {
   font-size: 4rem;
-  text-shadow: 4px 4px 6px white;
+  text-shadow: 4px 4px 6px #976dd1;
 }
 body #education h4, body #education .h4 {
   font-size: 3rem;
@@ -10896,16 +10878,15 @@ body #backtotop {
   padding: 3rem;
   border-radius: 5rem;
 }
+body #skills i:hover {
+  color: #976dd1;
+}
 body footer {
   background-image: linear-gradient(rgba(165, 179, 204, 0.5176470588), #e5e5e5, #976dd1, rgba(255, 0, 0, 0.437));
   font-weight: 900;
 }
 body footer h2, body footer .h2 {
   font-size: 3rem;
-}
-
-#skills i:hover {
-  color: #976dd1;
 }
 
 /*# sourceMappingURL=main.css.map */
