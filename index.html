@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
-    <title>My Portfolio</title>
+    <title>Kidan's Portfolio</title>
   </head>
   <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand text-white" href="#"
-          ><i class="fa-solid fa-code fax5 fa-2x"></i>
-          <h3>Kidan.Lakew</h3></a
-        >
+        <a class="navbar-brand text-white d-flex gap-1" href="#">
+          <i class="fa-solid fa-code fax5 fa-2x"></i>
+          <h3>Kidan.Lakew</h3>
+        </a>
         <button
           class="navbar-toggler border border-1 text-white"
           type="button"
@@ -30,7 +30,7 @@
           class="collapse navbar-collapse justify-content-end"
           id="navbarNav"
         >
-          <ul class="navbar-nav gap-3">
+          <ul class="navbar-nav gap-3 m-5">
             <li class="nav-item">
               <a class="nav-link text-white" href="#hero-section">Home</a>
             </li>
@@ -40,160 +40,124 @@
                 aria-current="page"
                 href="./coffee-project/index.html"
                 target="_blank"
-                >Projects</a
               >
+                Projects
+              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-    <!--   Hero section -->
-    <section id="hero-section" class="d-flex flex-column">
-      <h1 class="text-capitalize text-center">
-        <img src="./img/hello.gif" style="width: 50px" alt="hand shake" />
-        hello welcome to my portfolio!
-      </h1>
-      <div class="">
-        <div>
-          <p class="w-50">
-            I'm Kidan- a motivated and dedicated Web development student at DCI.
-            it is My very first portfolio and I did my best to make it
-            beautiful. I studied public health back in a days but now I am very
-            interested in Tech world.
-          </p>
-        </div> 
-       
-     
-      </section>
-      <!-- social-media icons -->
-
-      <div
-        class="social-media img-thumbnail bg-secondary float-end"  
-      >
-        <i class="fa-brands fa-instagram fa-4x"></i>
-        <i class="fa-brands fa-github fa-4x"></i>
-        <i class="fa-brands fa-facebook fa-4x"></i>
+    <!-- Hero section -->
+    <div id="hero-section" class="container">
+      <div class="row">
+        <h1 class="text-capitalize text-center">
+          <img src="./img/hello.gif" style="width: 50px" alt="hand shake" />
+          hello, welcome to my portfolio!
+        </h1>
       </div>
-    <!-- Educational Background -->
+      <div>
+        <p class="w-50" style="font-size: 1.5vw" col-sm-6>
+          I'm Kidan - a motivated and dedicated Web development student at DCI.
+          it is My very first portfolio and I did my best to make it beautiful.
+          I studied public health back in a days but now I am very interested in
+          Tech world.
+        </p>
+      </div>
+    </div>
 
-    <section class="container1">
-      <h2 class="text-center">EDUCATIONAL BACKGROUND</h2>
-      <article class="d-flex gap-5">
-        <div class="div1">
-          <h4>Bachelor</h4>
+    <!-- social-media icons -->
+    <div
+      class="social-media glyphicon img-thumbnail bg-secondary d-flex justify-content-center gap-5"
+    >
+      <i class="fa-brands fa-instagram fa-4x"></i>
+      <i class="fa-brands fa-github fa-4x"></i>
+      <i class="fa-brands fa-facebook fa-4x"></i>
+    </div>
+
+    <!-- Educational Background -->
+    <div
+      id="education"
+      class="container mb-5 d-flex flex-column justify-content-center align-items-center"
+    >
+      <h2 class="text-center m-5 p-5">Educational Background</h2>
+      <div class="row d-flex justify-content-around gap-5 m-3">
+        <div class="col-sm-3 div1">
+          <h4 class="text-center">Bachelor</h4>
           <p>
             I studied for four years at the University of Gondar in Ethiopia.
           </p>
         </div>
-        <div class="div2">
-          <h4>Web development</h4>
+        <div class="col-sm-3 div2">
+          <h4 class="text-center">Web development</h4>
           <p>I am currently learning at Digital Career Institute(DCI).</p>
         </div>
-        <div class="div3">
-          <h4>Self-Studies</h4>
+        <div class="col-sm-3 div3">
+          <h4 class="text-center">Self-Studies</h4>
           <p>I do Self-Studies on python for six month.</p>
           <p>I also took free courses on coursera on product management</p>
         </div>
-      </article>
-    </section>
-    <!-- Skills -->
-    <div id="skills" class=" container d-flex w-100 justify-content-around align-items-center">
-      <div class="row">
-      
-          <img class="col-sm-3" src="./img/css.png" alt=" css logo" />
-           <img class="col-sm-3" src="./img/html.png" alt="html logo" />
-           <img class="col-sm-3" src="./img/python.png" alt="python logo" />
-           <img class="col-sm-3" src="./img/bootstrap.jpeg" alt="" />
-       
+      </div>
+
+      <!-- Skills -->
+      <h2 class="text-center m-5 p-5">Skills</h2>
+      <div id="skills" class="row">
+        <div title="HTML 90%" class="col-sm-3 d-flex justify-content-center">
+          <i class="fa-5x fa-brands fa-html5"></i>
+        </div>
+        <div title="CSS 80%" class="col-sm-3 d-flex justify-content-center">
+          <i class="fa-5x fa-brands fa-css3-alt"></i>
+        </div>
+        <div title="Bootstrap 70%" class="col-sm-3 d-flex justify-content-center">
+          <i class="fa-5x fa-brands fa-bootstrap"></i>
+        </div>
+        <div title="Python 50%" class="col-sm-3 d-flex justify-content-center">
+          <i class="fa-5x fa-brands fa-python"></i>
+        </div>
+      </div>
     </div>
+
     <!-- Footer -->
-    <footer class="card-footer m-5 d-flex justify-content-around bg-primary">
-      <!-- div one -->
-      <div class="card border-0" style="width: 38rem">
-        <div class="card-body">
-          <h2 class="card-title">My portfolio</h2>
-          <p class="card-text">
-            Designed and built with care.And also I would like to thank my
-            teachers for their help to understand the code behind this
-            website.And also my-self manage to do it
-          </p>
-
-          <p>copy right reserved</p>
-        </div>
-      </div>
-      <!-- div two -->
-      <div class="card border-0" style="width: 28rem">
-        <div class="card-body">
-          <h2 class>Links</h2>
-          <nav>
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Projects</a
-                >
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
+    <footer>
+      <div class="container mt-5">
+        <div class="row d-flex justify-content-around gap-5">
+          <div class="col-sm-5 div1">
+            <h2 class="text-center">My Portfolio</h2>
+            <p>
+              Designed and built with care.And also I would like to thank my
+              teachers for their help to understand the code behind this
+              website. And also my-self manage to do it.
+            </p>
+            <p>copy right reserved</p>
+          </div>
+          <div class="col-sm-2 div2">
+            <h2>Links</h2>
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">
+              Projects
+            </a>
+            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+          <div class="col-sm-3 div3">
+            <h2>Skills</h2>
+            <ul class="list-unstyled d-flex flex-column gap-2">
+              <li class="list-item">HTML</li>
+              <li class="list-item">CSS</li>
+              <li class="list-item">bootstrap</li>
+              <li class="list-item">Python</li>
+              <li class="list-item">Canva</li>
             </ul>
-          </nav>
+          </div>
         </div>
+        <button id="backtotop" title="Go to top">
+          <a href="#hero-section">Top</a>
+        </button>
       </div>
-      <!-- div three -->
-      <div>
-        <ul class="list-unstyled d-flex flex-column gap-2">
-          <h2>Skills</h2>
-          <li class="list-item">HTML</li>
-          <li class="list-item">CSS</li>
-          <li class="list-item">bootstrap</li>
-          <li class="list-item">Python</li>
-          <li class="list-item">Canva</li>
-        </ul>
-      </div>
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </footer>
-
-    <!-- Script for back to top -->
-    <script>
-      // Get the button
-      let mybutton = document.getElementById("myBtn");
-
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () {
-        scrollFunction();
-      };
-
-      function scrollFunction() {
-        if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
-        ) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
 
     <!-- js link from bootstrap -->
     <script
